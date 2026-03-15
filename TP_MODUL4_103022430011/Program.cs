@@ -12,3 +12,11 @@ Console.WriteLine("Margasari   : " + kodePos.getKodePos("Margasari"));
 Console.WriteLine("Sekejati    : " + kodePos.getKodePos("Sekejati"));
 Console.WriteLine("Kebonwaru   : " + kodePos.getKodePos("Kebonwaru"));
 Console.WriteLine("Maleer      : " + kodePos.getKodePos("Maleer"));
+
+Console.WriteLine();
+Console.WriteLine("=== Simulasi DoorMachine ===");
+
+DoorMachine pintu = new DoorMachine();
+pintu.BukaPintu();
+pintu.KunciPintu();
+pintu.BukaPintu();
